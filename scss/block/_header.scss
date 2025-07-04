@@ -88,6 +88,16 @@
   border: 2px solid #b4548f;
   max-width: 700px;
 }
+.header__bottom_search select {
+  flex-shrink: 0;
+  padding: 16px;
+  border: none;
+  background: linear-gradient(200deg, #a7b4e7 0%, #ff8282 51.18%);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
 
 .header_input {
   flex: 1;

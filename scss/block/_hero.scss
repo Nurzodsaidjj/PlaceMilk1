@@ -1,11 +1,91 @@
 .banner {
-      width: 100%;
-      margin: 30px auto;
-      padding: 20px;
-      text-align: center;
-    }
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
 
-    .banner img {
-      width: 100%;
-      height: auto;
-    }
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.phones__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.product__card {
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.product__card img{
+  max-width: 100%;
+  height:auto;
+  object-fit: cover;
+  display: block;
+}
+.products__title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 27px;
+}
+.products__title2 {
+  margin-top: 27px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 28px;
+  color: #000;
+}
+.laptops__wrapper {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.favorite-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.like-btn {
+  margin-top: 10px;
+  background: #eee;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.like-btn:disabled {
+  background: #cf2d2d;
+  cursor: not-allowed;
+}
