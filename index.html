@@ -1,81 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header__top">
-          <ul class="header__top_list">
-            <li class="header__top_item">
-              <select>
-                <option value="1">
-                  <a class="option__link" href="#">Покупателям</a>
-                </option>
-              </select>
-            </li>
-            <li class="header__top_item">
-              <select>
-                <option value="1">
-                  <a class="option__link"  href="#">Поставщикам</a>
-                </option>
-              </select>
-            </li>
-            <li class="header__top_item">
-              <select>
-                <option value="1">
-                  <a class="option__link"  href="#">Частые вопросы</a>
-                </option>
-              </select>
-            </li>
-          </ul>
-          <div class="header__item">
-            <a href="#">Русский</a>
-            <a href="">
-                <select name="" id="">
-                <option>₽</option>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header__top">
+        <ul class="header__top_list">
+          <li class="header__top_item">
+            <select>
+              <option value="1">
+                <a class="option__link" href="#">Покупателям</a>
+              </option>
             </select>
-            </a>
-          </div>
+          </li>
+          <li class="header__top_item">
+            <select>
+              <option value="1">
+                <a class="option__link" href="#">Поставщикам</a>
+              </option>
+            </select>
+          </li>
+          <li class="header__top_item">
+            <select>
+              <option value="1">
+                <a class="option__link" href="#">Частые вопросы</a>
+              </option>
+            </select>
+          </li>
+        </ul>
+        <div class="header__item">
+          <a href="#">Русский</a>
+          <a href="">
+            <select name="" id="">
+              <option>₽</option>
+            </select>
+          </a>
         </div>
-        <div class="header__bottom">
-            <div class="header__bottom_img">
-                <button class="header__btn"></button>
-                <img src="./img/Лого.svg" alt="logo">
-            </div>
-            <div class="header__bottom_search">
-                <select name="" id="123">
-                    <option value="">Везде</option>
-                </select>
-                <input class="header_input" type="text"/>
-                <button class="header__search_btn"></button>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom_img">
+          <button class="header__btn"></button>
+          <img src="./img/Лого.svg" alt="logo">
+        </div>
+        <div class="header__bottom_search">
+          <select name="" id="123">
+            <option value="">Везде</option>
+          </select>
+          <input class="header_input" type="text" />
+          <button class="header__search_btn"></button>
         </div>
         <ul class="header__bottom__list">
-            <li class="header__bottom_item">
-                <a class="header__bottom_item_link" href="#">Войти</a>
-            </li>
-            <li class="header__bottom_item">
-                <a id="favoriteBtn" class="header__bottom_item_link link2" href="#">Избранное</a>
-            </li>
-            <li class="header__bottom_item">
-                <a class="header__bottom_item_link link3" href="#">Корзина</a>
-            </li>
+          <li class="header__bottom_item">
+            <a class="header__bottom_item_link" href="#">Войти</a>
+          </li>
+          <li class="header__bottom_item">
+            <a id="favoriteBtn" class="header__bottom_item_link link2" href="#">Избранное</a>
+          </li>
+          <li class="header__bottom_item">
+            <a class="header__bottom_item_link link3" href="#">Корзина</a>
+          </li>
         </ul>
       </div>
-     <div id="favoriteModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <div id="favoriteList"></div>
-  </div>
-</div>
-    </header>
-   <main>
-     <section class="hero">
-      <div class="container"><div id="banner" class="banner">Loading banner...</div>
+      <div id="favoriteModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="favoriteList"></div>
+        </div>
+      </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div id="banner" class="banner">Loading banner...</div>
     </section>
     <section class="products">
       <div class="container">
@@ -84,11 +87,13 @@
       </div>
     </section>
     <section class="product2">
-<div class="container">
-  <h2 class="products__title2">Sport tovar</h2>
-         <div class="laptops__wrapper"></div>
-</div>    </section>
-   </main>
-    <script type="module" src="main.js"></script></div>
-  </body>
+      <div class="container">
+        <h2 class="products__title2">Sport tovar</h2>
+        <div class="laptops__wrapper"></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./main.js"></script>
+  </div>
+</body>
 </html>

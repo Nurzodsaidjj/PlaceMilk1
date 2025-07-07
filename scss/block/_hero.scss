@@ -68,6 +68,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
+  overflow-x:scroll ;
+
 }
 
 .modal-content {
@@ -86,6 +88,13 @@
   cursor: pointer;
 }
 .like-btn:disabled {
-  background: #cf2d2d;
-  cursor: not-allowed;
+  background: #d2a3a3;
+  color: #fff;
+}
+.product__price{
+    padding-top: 10px;
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+color: #c1a930;
 }
